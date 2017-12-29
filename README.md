@@ -19,3 +19,8 @@ Beispiele für Sousveillance
 * Whistleblower
 * Bei (Demos etc.) Polizeieinsätze (-gewalt) filmen
 
+# Sources
+
+https://pinboard.in/u:jk/t:surveillance/
+
+https://pinboard.in/u:jk/t:tutorial+technology
