@@ -134,14 +134,6 @@ Fragen lieber zwischendurch oder am Ende?
 
 Erfahrungswerte?
 
-Um unter Linux die Präsentation zum Laufen zu bringen:
-
-```shell
-sudo apt install texmaker texlive-lang-german
-texmaker presentation.tex
-xdg-open presentation.pdf
-```
-
 # Sources
 
 https://pinboard.in/u:jk/t:surveillance/
