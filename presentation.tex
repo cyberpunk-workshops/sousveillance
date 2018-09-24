@@ -51,7 +51,7 @@
 }
 
 \author[b3yond]
-{      b3yond \\
+{      b3yond \& ph4nt \\
       {}
 }
 
@@ -102,7 +102,7 @@
     \item<1-> Public Transport should be paid for by the public
     \item<1-> Save costs for everyone:
     \begin{itemize}
-    	\item<1-> No vending machines, no repairment
+    	\item<1-> No vending machines, no maintenance
     	\item<1-> No ticket controllers
     	\item<1-> Less administration costs
     	\item<1-> No privatized earnings from a monopoly/infrastructure
@@ -130,7 +130,7 @@
 \begin{itemize}
     \item<1-> Barriers for usage are one problem, participation is the other
     \item<1-> Infrastructure defines our lives
-    \item<1-> Democratic participation in infrastructure against private monopolies
+    \item<1-> Democratic participation in infrastructure vs. private monopolies
 	\item<1-> Ticketfrei does not do this, this is only accomplished by e.g. Freifunk
 \end{itemize}
     
@@ -204,25 +204,26 @@
     \item We saw it work in Berlin \& Hamburg, but their code was not open source.
     \item 2 people sat down for a day and wrote 80\%
     \item The other 20\% were written the next months (you know how it is)
-    \item It's still on Github: \url{https://github.com/b3yond/ticketfrei/}
-    \item Contribute on the multi-deployment branch!
+    \item Later we added a web interface so you can register a bot for your city
+    \item<2-> It's on Github: \url{https://github.com/b3yond/ticketfrei/}
+    \item<2-> You can contribute on the multi-deployment branch!
 \end{itemize}
     
 \end{frame}
 
 %-------------------------------------------------------
-\subsection{Development Roadmap}
-\begin{frame}{The Ticketfrei-Bot}{Development Roadmap}
+\section{Ticketfrei 2.0}
+\subsection{Ticketfrei in my city}
+\begin{frame}{The Ticketfrei Bot}{How can I bring Ticketfrei to my city?}
 %-------------------------------------------------------
 
 \begin{itemize}
-  \item<1-> We want to make it easier to install Ticketfrei in other cities
-  \item<1-> With a Webinterface people can install a bot via a fancy GUI, without needing a server and command line skills
-  \item<2-> So they can focus on the promotion instead on the technical side
-  \item<2-> The Repository contains drafts for promotion material, which you can adjust: \url{https://github.com/b3yond/ticketfrei/tree/master/promotion}
-  \item<2-> The website is here: \url{https://ticketfrei.links-tech.org} (staging environment)
+  \item<1-> The new web interface makes it easier to install Ticketfrei in other cities
+  \item<1-> Now you can create a bot on our website, without needing a server and command line skills
+  \item<1-> You can focus on the promotion instead of the technical side
+  \item<1-> The Repository contains drafts for promotion material, which you can adjust: \url{https://github.com/b3yond/ticketfrei/tree/multi-deployment/promotion}
+  \item<1-> The website is here: \url{https://ticketfrei.links-tech.org} (Beta)
 \end{itemize}
-
 
 \end{frame}
 
@@ -234,6 +235,70 @@
 \end{frame}
 \begin{frame}
 	\includegraphics[width=\textwidth]{screenshots/Screenshot_2018-03-30_01-13-16.png}	
+\end{frame}
+
+
+\subsection{Step-by-Step}
+\begin{frame}{The Ticketfrei Bot}{Step-by-Step}
+
+\begin{itemize}
+  \item Create an Account at https://ticketfrei.links-tech.org:
+  \begin{itemize}
+    \item E-Mail-Adress, City, Password
+  \end{itemize}
+  \item Add Social-Media accounts to your Ticketfrei account
+  \item Change the text on https://ticketfrei.links-tech.org/city/Nürnberg
+  \item Promote the use of the bot in your city
+\end{itemize}
+
+\end{frame}
+\begin{frame}{The Ticketfrei Bot}{Step-by-Step}
+
+\begin{block}{{Add Twitter}}
+  \begin{itemize}
+    \item Register a twitter account
+    \item Click on "Login with Twitter" in the settings
+    \item Log in to the twitter account of the bot
+    \item Authorize the Ticketfrei app
+  \end{itemize}
+\end{block}
+
+\end{frame}
+\begin{frame}{The Ticketfrei Bot}{Step-by-Step}
+
+\begin{block}{{Add Mastodon}}
+  \begin{itemize}
+    \item Register a mastodon account
+    \item Enter the account's e-mail address, the password, and the mastodon server to the settings
+    \item Click on "Log in"
+  \end{itemize}
+\end{block}
+
+\end{frame}
+\begin{frame}{The Ticketfrei Bot}{Step-by-Step}
+
+\begin{block}{{Add Telegram}}
+  \begin{itemize}
+    \item Write to @botfather on Telegram to register a Telegram Bot
+    \item Enter the API key which @botfather gives to you into the settings
+    \item Click on "Login with Telegram"
+  \end{itemize}
+\end{block}
+
+\end{frame}
+
+\subsection{promotion}
+\begin{frame}{The Ticketfrei Bot}{Promotion}
+
+\begin{itemize}
+  \item Leaflets in the local leftist scene, with more radical message
+  \item Leaflets for the public, which explains goals and talks about the environment, but also explains the bot
+  \item Example Leaflets are available in the GitHub-Repository at \url{https://github.com/b3yond/ticketfrei/tree/multi-deployment/promotion}
+  \item<2-> Aktionsschwarzfahren is a good way to both spread leaflets and dodge the fare legally
+  \item<3-> With enough public attention you can try to start a referendum or bring the topics to political parties for policy making
+  \item<4-> Studies about the practicability and cost effectiveness of ticket-free public transport in your area are also useful
+\end{itemize}
+
 \end{frame}
 
 %-------------------------------------------------------
